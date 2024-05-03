@@ -1,15 +1,15 @@
 
 create database bookstore -- To create database their name bookstore
 use bookstore
-create table books( -- To create table their name employer 
-bookid int primary key, -- To create a colummn named employerid 
-title varchar(50), -- To create a colummn named first_name
-authorid varchar(50), -- To create a colummn named last_name
-categoryid varchar(50), -- To create a colummn named department 
-price decimal(10,2) -- To create a colummn named department 
+create table books( -- To create table their name books 
+bookid int primary key, -- To create a colummn named bookid 
+title varchar(50), -- To create a colummn named title
+authorid varchar(50), -- To create a colummn named authorid
+categoryid varchar(50), -- To create a colummn named categoryid 
+price decimal(10,2) -- To create a colummn named price 
 );
-create table authors( -- To create table their name employer 
-authorid int primary key, -- To create a colummn named employerid 
+create table authors( -- To create table their name authors 
+authorid int primary key, -- To create a colummn named authorid 
 authorname varchar(50), -- To create a colummn named last_name
 );
 create table categories( -- To create table their name employer 
